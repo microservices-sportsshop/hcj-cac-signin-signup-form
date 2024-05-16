@@ -3,9 +3,10 @@
 @import url('https://fonts.googleapis.com/css?family=Open+Sans');
 
 * {
-  box-sizing: border-box;
   margin: 0;
   padding: 0;
+  outline: none;
+  box-sizing: border-box;
 }
 
 body {
@@ -90,13 +91,14 @@ body {
 }
 
 .main-content {
-  height: 40vh;
+  height: 36vh;
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   text-align: center;
   position: relative;
-  margin-bottom: 20px;
+  /* margin-bottom: 10px; */
   z-index: -2;
 }
 
@@ -126,3 +128,21 @@ footer {
   left: 0;
   width: 100%;
 }
+
+.signin-container {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* .form-wrapper {
+  width: 100rem;
+  height: 70rem;
+  background-color: #eee;
+  border-radius: 3rem;
+  box-shadow: 0 2rem 6rem rgba(0, 0, 0, 0.3);
+  position: relative;
+  overflow: hidden;
+} */
