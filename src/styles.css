@@ -10,11 +10,9 @@
 
 body {
   font-family: 'Open Sans', 'Roboto', 'Montserrat', sans-serif;
-  font-family: sans-serif;
   line-height: 2.2;
   font-size: 0.875rem;
   color: #1C1678;
-  padding-bottom: 50px;
   min-height: 100vh;
   /* Set minimum height to full viewport height */
   position: relative;
@@ -93,7 +91,6 @@ body {
 
 .main-content {
   height: 40vh;
-  /* color: #fff; */
   display: flex;
   justify-content: center;
   align-items: center;
@@ -106,29 +103,25 @@ body {
 h1 {
   font-size: 3rem;
   margin-bottom: 1rem;
-  /* color: #1C1678; */
 }
 
 .content h2,
 .content h3 {
   font-size: 150%;
   margin: 20px 0;
-  /* color: #1C1678; */
 }
 
 .content p {
-  /* color: #1C1678; */
   line-height: 30px;
   letter-spacing: 1.2px;
 }
 
 footer {
-  background-color: #E4C59E;
-  color: #803D3B;
+  margin-top: auto;
+  background-color: #585656;
+  color: #fff;
   text-align: left;
   padding: 15px 20px;
-  /* Adjust padding as needed */
-  /* position: absolute; */
   bottom: 0;
   left: 0;
   width: 100%;

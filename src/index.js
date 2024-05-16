@@ -1,6 +1,10 @@
-const bar = document.querySelector(".fa-bars");
-const menu = document.querySelector(".menu");
+const nav = document.querySelector('.nav')
+window.addEventListener('scroll', fixNav)
 
-bar.addEventListener("click", () => {
-  menu.classList.toggle("show-menu");
-});
+function fixNav() {
+  if (window.scrollY > nav.offsetHeight + 150) {
+    nav.classList.add('active')
+  } else {
+    nav.classList.remove('active')
+  }
+}
