@@ -8,3 +8,12 @@ function fixNav() {
     nav.classList.remove('active')
   }
 }
+
+const container = document.querySelector(".signin-container");
+const signUpBtn = document.querySelector(".green-bg button");
+
+signUpBtn.addEventListener("click", () => {
+  console.log(container.classList);
+  
+  container.classList.toggle("change");
+});
