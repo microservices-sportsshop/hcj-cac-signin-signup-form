@@ -39,7 +39,7 @@
 }
 
 .banner p {
-    font-size: 1rem;
+    font-size: 1.5rem;
 }
 
 .green-bg {
@@ -94,7 +94,7 @@
 }
 
 .signin-container.change .signup-form {
-    left: 36rem;
+    left: 23rem;
 }
 
 .signup-form h1 {
@@ -132,7 +132,7 @@
 
 .input-group input {
     width: 28rem;
-    height: 3rem;
+    height: 2rem;
     padding: 1rem 1rem 1rem 3rem;
     background-color: #ddd;
     border: none;
@@ -159,4 +159,11 @@
     color: #fff;
     margin-top: 3rem;
     cursor: pointer;
+    border: 0.1rem solid #ade0f4;
+}
+
+.signup-form button:hover {
+    background-color: #fff;
+    color: #0eb3f5;
+    border: 0.1rem solid #024762;
 }
