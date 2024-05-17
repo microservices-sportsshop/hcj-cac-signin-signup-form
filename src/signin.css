@@ -16,6 +16,7 @@
     box-shadow: 0 1rem 6rem rgba(0, 0, 0, 0.3);
     position: relative;
     overflow: hidden;
+    border: 0.1rem solid #0eb3f5;
 }
 
 .banner {
