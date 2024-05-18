@@ -1,5 +1,5 @@
 .signin-container {
-    margin-top: 1rem;
+    margin-top: 1.8rem;
     width: 100%;
     height: 100vh;
     display: flex;
@@ -9,37 +9,38 @@
 }
 
 .form-wrapper {
-    width: 90rem;
-    height: 40rem;
+    width: 75rem;
+    height: 36rem;
     background-color: #eee;
     border-radius: 3rem;
     box-shadow: 0 1rem 6rem rgba(0, 0, 0, 0.3);
     position: relative;
     overflow: hidden;
+    border: 0.1rem solid #0eb3f5;
 }
 
 .banner {
     position: absolute;
-    top: 25%;
-    left: -30rem;
+    top: 20%;
+    left: -36rem;
     text-align: center;
     color: #fff;
-    width: 30rem;
+    width: 35rem;
     z-index: 100;
     transition: left 0.8s;
 }
 
 .signin-container.change .banner {
-    left: 5rem;
+    left: -2.50rem;
 }
 
 .banner h1 {
     font-size: 3rem;
-    margin-bottom: 2rem;
+    margin-bottom: 1rem;
 }
 
 .banner p {
-    font-size: 1rem;
+    font-size: 1.5rem;
 }
 
 .green-bg {
@@ -73,6 +74,12 @@
     cursor: pointer;
 }
 
+.green-bg button:hover {
+    background-color: #fff;
+    color: #0eb3f5;
+    border: 0.1rem solid #024762;
+}
+
 .signup-form {
     width: 60rem;
     height: 100%;
@@ -88,7 +95,7 @@
 }
 
 .signin-container.change .signup-form {
-    left: 36rem;
+    left: 23rem;
 }
 
 .signup-form h1 {
@@ -126,7 +133,7 @@
 
 .input-group input {
     width: 28rem;
-    height: 3rem;
+    height: 2rem;
     padding: 1rem 1rem 1rem 3rem;
     background-color: #ddd;
     border: none;
@@ -153,4 +160,11 @@
     color: #fff;
     margin-top: 3rem;
     cursor: pointer;
+    border: 0.1rem solid #ade0f4;
+}
+
+.signup-form button:hover {
+    background-color: #fff;
+    color: #0eb3f5;
+    border: 0.1rem solid #024762;
 }
